@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.div-principal{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    color: #70ffc0;
+}
+
+.anime{
+    width: 30vw;
+    height: 30vh;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 30px 30px 60px #00000056;
+}
+
+.card-login > h1{
+    color:#00ff88;
+    font-weight: 900;
+    margin: 0;
+}
+
+.card-login > h2{
+    display: none;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+    
+}
+
+.texto > input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+.texto > label{
+    color: #f0ffffde;
+}
+
+.texto > input::placeholder{
+    color: #f0ffff94;
+}
+
+.login-center{
+    width: 100%;
+}
+
+.bt-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt-login button{
+    width: 100%;
+    padding: 16px 0;
+    margin: 25px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing:3px;
+    color:#fff;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #00000056;
+}
+
+.bt-login{
+    text-decoration: none;
+}
+
+.redes-center{
+    display: flex;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+    margin: 10px 10px;
+    background-color: #201b2c;
+    border-radius:60px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 7px #00000056;
+}
+
+.imgg{
+    margin: 0 10px;
+    margin-top: 3px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .left-login{
+        display: none;
+    }
+
+    .right-login{
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-login{
+        width: 80%;
+        height: 70%;
+        border-radius: 20px;
+        background-image: url(../imagem/bike.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center center;
+    }
+    .texto > input{
+        background: transparent;
+    }
+
+    .texto > input::placeholder{
+        color: #404656;
+    }
+
+    .card-login > h2{
+        display: flex;
+        font-size: 10px;
+        color: black;
+        font-weight: 900;
+    }
+}
+
+
+
+    
